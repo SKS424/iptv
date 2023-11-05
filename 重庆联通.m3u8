@@ -1,4 +1,8 @@
 #EXTM3U
+#EXT-X-APP APTV
+#EXT-X-APTV-TYPE remote
+#EXT-X-SUB-URL https://github.com/SKS424/iptv/blob/main/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="央视",CCTV-1
 rtsp://123.147.112.30:8089/04000001/01000000004000000000000000000231?
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" tvg-id="2" tvg-name="CCTV2" group-title="央视",CCTV-2
